@@ -16,11 +16,11 @@ function calculateGrade(average) {
     }
     }
 
-function getvalidMark(subject) {
+function getvalidMark(mark) {
     let mark;
 
     while (true) {
-        let input = prompt(`Enter the mark for ${subject}:`);
+        let input = prompt(`Enter the mark for ${mark}:`);
 
         if (input === null || input.trim() === "") {
             alert("Input cannot be empty. Please enter a valid mark.");
